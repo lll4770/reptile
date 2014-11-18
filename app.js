@@ -6,6 +6,8 @@ var request = require('request'),
 
 var host = 'http://www.17u.com/blog/';//可修改为其他的地址
 
+
+
 var html = [];
 setInterval(scraper(host), 1000*60*15);//15 分钟更新一次
 function scraper (host) {
